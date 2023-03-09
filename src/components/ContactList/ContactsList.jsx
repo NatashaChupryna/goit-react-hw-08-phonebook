@@ -40,7 +40,7 @@ export function ContactList() {
               <Name>{contact.name} </Name>
             </Wrapper>
             <Wrapper>
-              <a type="tel" href={contact.number}>
+              <a type="tel" href="tel:{contact.number}">
                 <Number>
                   <AiFillPhone />
                   {contact.number}
