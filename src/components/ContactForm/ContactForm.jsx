@@ -47,7 +47,7 @@ export const ContactForm = function () {
         id: nanoid(),
         name: name,
         number: number,
-        userAvatar: `https://api.dicebear.com/5.x/adventurer/svg?seed=${name}`,
+        // userAvatar: `https://api.dicebear.com/5.x/adventurer/svg?seed=${name}`,
       })
     );
     toast.success('Contact was added to the list', {

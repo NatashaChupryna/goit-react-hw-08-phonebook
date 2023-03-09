@@ -17,7 +17,7 @@ export function UserMenu() {
         Hello, {user.name}
       </Greet>
       <Button type="button" onClick={() => dispatch(logOut())}>
-        <RxExit size={24} />
+        <RxExit size={20} />
       </Button>
     </Nav>
   );

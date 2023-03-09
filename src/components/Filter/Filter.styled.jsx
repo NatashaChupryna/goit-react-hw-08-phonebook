@@ -15,6 +15,9 @@ export const Input = styled.input`
   border: 1px solid rgb(200, 200, 200);
   border-radius: 10px;
   outline: none;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 200px;
+  }
 `;
 
 export const Field = styled.div`

@@ -20,6 +20,15 @@ export const Wrapper = styled.div`
   gap: 15px;
 `;
 
+export const IconWrapper = styled.div`
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
 export const Name = styled.span`
   /* margin-right: 15px; */
 `;

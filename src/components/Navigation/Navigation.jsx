@@ -9,7 +9,7 @@ export function Navigation() {
   return (
     <Nav>
       <StyledLink to="/">
-        <IoMdHome size={20} />
+        <IoMdHome size={22} />
         Home
       </StyledLink>
 

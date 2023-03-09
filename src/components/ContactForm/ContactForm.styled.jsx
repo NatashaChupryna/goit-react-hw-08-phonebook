@@ -35,7 +35,7 @@ export const Label = styled.label`
 
 export const NameInput = styled.input`
   margin-left: 25px;
-  width: 252px;
+  width: 250px;
   height: 28px;
   padding: 8px 16px;
   font-size: 14px;

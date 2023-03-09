@@ -5,11 +5,12 @@ import { useSelector, useDispatch } from 'react-redux';
 import { fetchContacts, deleteContact } from 'redux/contacts/operations';
 import { AiOutlineDelete, AiFillPhone } from 'react-icons/ai';
 import { Loader } from '../Loader/Loader';
-
+import { FiUserCheck } from 'react-icons/fi';
 import {
   List,
   Item,
   Wrapper,
+  IconWrapper,
   Name,
   Number,
   Button,
@@ -31,7 +32,11 @@ export function ContactList() {
         contacts.map(contact => (
           <Item key={contact.id}>
             <Wrapper>
-              <img src={contact.userAvatar} alt="" width={40} height={40} />
+              <IconWrapper>
+                <FiUserCheck size={18} color={'white'} />
+              </IconWrapper>
+
+              {/* <img src={contact.id} alt={contact.name} width={40} height={40} /> */}
               <Name>{contact.name} </Name>
             </Wrapper>
             <Wrapper>

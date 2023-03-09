@@ -9,11 +9,8 @@ export const ContactsSection = styled.section`
   background-repeat: no-repeat;
   background-size: 70%;
   @media screen and (min-width: 768px) {
-    background-size: 99%;
-    background-position: top right;
-  }
-  @media screen and (min-width: 1200px) {
     background-size: 40%;
+    background-position: top right;
   }
 `;
 
