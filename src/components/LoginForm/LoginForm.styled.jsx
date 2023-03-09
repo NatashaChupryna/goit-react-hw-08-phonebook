@@ -50,6 +50,7 @@ export const Button = styled.button`
   font-weight: bold;
   background-color: transparent;
   cursor: pointer;
+  color: black;
   transition: all 300ms ease;
   :hover {
     background-color: red;
